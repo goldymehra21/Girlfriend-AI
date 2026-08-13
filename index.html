@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="topbar">
+        <div class="profile">
+            <div class="avatar">A</div>
+
+            <div>
+                <h1>Ava</h1>
+                <span class="status">
+                    <span class="online-dot"></span>
+                    Online
+                </span>
+            </div>
+        </div>
+
+        <button id="clearChat" class="icon-btn" title="Clear chat">
+            ⋮
+        </button>
+    </header>
+
+
+    <!-- CHAT -->
+    <main id="chat" class="chat">
+
+        <div class="welcome">
+            <div class="big-avatar">A</div>
+
+            <h2>Hi, I'm Ava 😊</h2>
+
+            <p>
+                I'm here to chat, listen, joke around,
+                talk about life, travel, work, dreams,
+                relationships and almost anything else.
+            </p>
+        </div>
+
+    </main>
+
+
+    <!-- TYPING INDICATOR -->
+    <div id="typing" class="typing hidden">
+        <div class="typing-avatar">A</div>
+
+        <div class="typing-bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <!-- INPUT -->
+    <footer class="input-area">
+
+        <div class="input-box">
+
+            <textarea
+                id="messageInput"
+                placeholder="Talk to Ava..."
+                rows="1"
+            ></textarea>
+
+            <button id="sendBtn" class="send-btn">
+                ➤
+            </button>
+
+        </div>
+
+        <p class="disclaimer">
+            Ava is an AI companion. She is not a real person.
+        </p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
